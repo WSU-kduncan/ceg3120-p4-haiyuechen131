@@ -22,3 +22,9 @@
 - Screenshoot
 
 ![milestone1screenshot](CEG3120Project4DockerizeWebsite.PNG)
+
+### Milestone 2: GitHub Actions & ECR
+- Set up ECR on AWS educate account
+- Create GitHub Actions secrets named AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to store the values for your Amazon IAM access key
+- Set up GitHub workflow that pushes image to ECR, comment out ECS related sections
+- configure AWS CLI
