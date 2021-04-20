@@ -1,6 +1,8 @@
 ## My CEG3120 Project4 Documentation
 
 ### Project Overivew
+This is my CEG3120 public repo. For this project, I use Docker to run my website and test it locally. I use AWS CLI to create ECR. I learned how to create GitHub Actions secrets and set up Github workflow that pushes image to ECR. 
+
 ### Run Dockerize website and test Locally
 - Install Docker for Windows/Dependencies
     - WSL2
@@ -19,7 +21,7 @@
         - `docker run -d -p 5000:80 my_image_name`
     - source:
     https://hub.docker.com/_/httpd
-    
+
     https://www.docker.com/sites/default/files/d8/2019-09/docker-cheat-sheet.pdf
 - Screenshoot of dockerized website
     - Open a browser and access the port via 127.0.0.1:5000 in this case
