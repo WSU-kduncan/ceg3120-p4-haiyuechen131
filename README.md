@@ -19,6 +19,7 @@
         - `docker run -d -p 5000:80 my_image_name`
     - source:
     https://hub.docker.com/_/httpd
+    
     https://www.docker.com/sites/default/files/d8/2019-09/docker-cheat-sheet.pdf
 - Screenshoot of dockerized website
     - Open a browser and access the port via 127.0.0.1:5000 in this case
